@@ -9,7 +9,7 @@
 
 header {
 	clear: both;
-	max-width: 1200px;
+	max-width: 1900px;
 	margin: 0 auto;
 	padding: 0px;
 	position: relative;
@@ -33,6 +33,11 @@ p {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a:hover {
+    color: purple;/*
+    text-transform: uppercase;*/
 }
 
 h3, h4, h5 {
@@ -65,7 +70,7 @@ footer {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0px;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 #footContainer {
@@ -73,8 +78,12 @@ footer {
 	border-top: 2px solid black;
 }
 
+#footContainer p {
+	font-size: 10px;
+}
+
 #footContainer img {
-	width: 150px;
+	width: 100%;
 	margin: 0px 10px 15px 0px;
 	vertical-align: middle;
 }
