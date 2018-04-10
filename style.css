@@ -45,6 +45,9 @@ a:hover {
     color: purple;/*
     text-transform: uppercase;*/
 }
+h1 {
+	font-size: 31px;
+}
 
 h3, h4, h5 {
 	margin-top: 0px;
