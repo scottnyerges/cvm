@@ -4,7 +4,6 @@
 	text-align: left;
 	background-color: GhostWhite;
 	font-family: Arial, Helvetica, sans-serif;	
-
 }
 
 header {
@@ -139,8 +138,10 @@ footer {
 
 #mainContainer img {
 	width: 100%;
+	max-width: 500px;
 	height: auto;
 	vertical-align: middle;
+	text-align: center;
 }
 
 #mainContent {
@@ -176,6 +177,11 @@ footer {
 	width: 100%;
 	margin: 0px;
 }
+
+#thirdContainer a {
+	font-size: 12px;
+}
+
 
 #thirdContent {
 	clear: both;
