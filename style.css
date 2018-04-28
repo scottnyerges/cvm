@@ -52,7 +52,7 @@ h1 {
 	text-align: center;
 }
 
-h2#center {
+h2#center, h3#center, h4#center {
 	text-align: center;
 }
 
@@ -105,11 +105,11 @@ footer {
 
 #footContainer p {
 	font-size: 10px;
+		text-align: left;
 }
 
 #footContainer h6 {
 	font-size: 11px;
-	text-align: center;
 	margin-top: -15px;
 }
 
@@ -258,7 +258,7 @@ footer {
 	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
 
 	h1 {font-size: 25px;
-		margin-bottom: -15px;
+		margin-bottom: 0px;
 		text-align: center;}
 	h2 {font-size: 20px;
 		text-align: left;}
