@@ -6,6 +6,7 @@
 	font-family: Arial, Helvetica, sans-serif;	
 }
 
+
 table {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -23,65 +24,87 @@ td, th {
 
 
 
-tr:nth-child(2) {
-    background-color: #FFF3CF;
+
+tr#event:nth-child(2) {
+    background-color: #c9c8c9;
 }
 
 tr:nth-child(3) {
-    background-color: #DCEDC1;
+    background-color: #92ff86;
 }
 
 tr:nth-child(4) {
-    background-color: #FFAAA5;
+    background-color: #ffb34d;
 }
 
 tr:nth-child(5) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(6) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(7) {
-    background-color: #B6C5FF;
+    background-color: #ffff9c;
 }
 
 tr:nth-child(8) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(9) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(10) {
-    background-color: #FFF3CF;
+    background-color: #ffff9c;
 }
 
 tr:nth-child(11) {
-    background-color: #DCEDC1;
+    background-color: #aec6ff;
 }
 
 tr:nth-child(12) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(13) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(14) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
 
 tr:nth-child(15) {
-    background-color: #B6C5FF;
+    background-color: #ffff9c;
 }
 
 tr:nth-child(16) {
-    background-color: #FFD3B6;
+    background-color: #b1a5f3;
 }
+
+tr:nth-child(17) {
+    background-color: #ffff9c;
+}
+
+tr:nth-child(18) {
+    background-color: #3cf2bc;
+}
+
+tr:nth-child(19) {
+    background-color: #ffff9c;
+}
+
+tr:nth-child(20) {
+    background-color: #3cf2bc;
+}
+
+
+
+
+
 
 header {
 	clear: both;
@@ -98,6 +121,7 @@ img {
 	text-align: center;
 	margin-bottom: 10px;
 }
+
 
 img#CVMmobile {
 	max-width: 200px;
@@ -190,11 +214,11 @@ footer {
 	margin-top: -15px;
 }
 
-#footContainer img {
+/*#footContainer img {
 	width: 100%;
 	margin: 10px 10px 0px 0px;
 	vertical-align: middle;
-}
+}*/
 
 #headContainer {
 	width: 100%;
@@ -258,9 +282,17 @@ footer {
 	margin: 0px;
 }
 
+
 #thirdContainer a {
 	font-size: 12px;
 }
+
+#thirdContainer img { 
+	max-width: 275px;
+    margin: 10px auto 20px;
+    display: block;
+	text-align: center;
+	 }
 
 
 #thirdContent {
