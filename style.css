@@ -19,13 +19,16 @@ td, th {
 	border-radius: 10px;
     text-align: left;
     padding: 12px;
-    min-width: 70px;
+    min-width: 60px;
 }
 
+	#clear
+	{
+		background-color: white;
+	}
 
 
-
-tr#event:nth-child(2) {
+tr:nth-child(2) {
     background-color: #c9c8c9;
 }
 
@@ -122,9 +125,17 @@ img {
 	margin-bottom: 10px;
 }
 
+img#logo {
+	max-width: 125px;
+	    margin: 10px auto 20px;
+    display: block;
+}
+
 
 img#CVMmobile {
 	max-width: 200px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 p {
@@ -240,13 +251,13 @@ footer {
 	margin: 0px;
 }
 
-#mainContainer img {
+/*#mainContainer img {
 	width: 100%;
 	max-width: 500px;
 	height: auto;
 	vertical-align: middle;
 	text-align: center;
-}
+}*/
 
 #mainContent {
 	clear: both;
@@ -262,11 +273,11 @@ footer {
 	margin: 0px;
 }
 
-#secondContainer img {
+/*#secondContainer img {
 	width: 100%;
 	height: auto;
 	vertical-align: middle;
-}
+}*/
 
 #secondContent {
 	clear: both;
@@ -291,8 +302,8 @@ footer {
 	max-width: 275px;
     margin: 10px auto 20px;
     display: block;
-	text-align: center;
-	 }
+/*	text-align: center;
+*/	 }
 
 
 #thirdContent {
