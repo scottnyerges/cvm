@@ -6,6 +6,7 @@
 	font-family: Arial, Helvetica, sans-serif;	
 }
 
+/*TABLE CODING*/
 
 table {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,25 +16,52 @@ table {
 */    width: 100%;
 }
 
+table#wednesday {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-spacing: 5px;
+	width: 100%;
+
+}
+
 td, th {
 	border-radius: 10px;
+	border-color: none;
     text-align: left;
     padding: 12px;
     min-width: 60px;
 }
 
-	#clear
-	{
-		background-color: white;
-	}
+#nocolor {
+		background-color: #f7f7ff;
+}
 
+#wedSpeak {
+	background-color: #b1a5f3;
+}
+
+#wedKey {
+	background-color: #ffb34d;
+}
+
+#wedVid {
+	background-color: #ff3300;
+}
+
+#wedScreen {
+	background-color: #92ff86;
+}
+
+#wedBreak {
+	background-color: #ffff9c;
+}
 
 tr:nth-child(2) {
     background-color: #c9c8c9;
 }
 
 tr:nth-child(3) {
-    background-color: #92ff86;
+    background-color: #bce2dc;
 }
 
 tr:nth-child(4) {
@@ -65,7 +93,7 @@ tr:nth-child(10) {
 }
 
 tr:nth-child(11) {
-    background-color: #aec6ff;
+    background-color: #ff3300;
 }
 
 tr:nth-child(12) {
@@ -93,7 +121,7 @@ tr:nth-child(17) {
 }
 
 tr:nth-child(18) {
-    background-color: #3cf2bc;
+    background-color: #92ff86;
 }
 
 tr:nth-child(19) {
@@ -101,13 +129,14 @@ tr:nth-child(19) {
 }
 
 tr:nth-child(20) {
-    background-color: #3cf2bc;
+    background-color: #92ff86;
 }
 
+/*PAGE STYLES*/
 
-
-
-
+ul {
+	font-size: 14px;
+}
 
 header {
 	clear: both;
@@ -122,7 +151,7 @@ img {
 	height: auto;
 	border: 0px;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 img#logo {
@@ -130,7 +159,6 @@ img#logo {
 	    margin: 10px auto 20px;
     display: block;
 }
-
 
 img#CVMmobile {
 	max-width: 200px;
@@ -141,13 +169,12 @@ img#CVMmobile {
 p {
 	font-family: Arial, Helvetica, sans-serif;	
 	font-size: 12px;
-
 }
 
-#credit {
-	font-size: 9px;
+p#credit {
+	font-size: 8px;
 	text-align: right;
-	margin-top: -5px;
+	margin-top: -1px;
 }
 
 a {
@@ -156,9 +183,9 @@ a {
 }
 
 a:hover {
-    color: purple;/*
-    text-transform: uppercase;*/
+    color: purple;
 }
+
 h1 {
 	font-size: 32px;
 	text-align: center;
@@ -217,7 +244,7 @@ footer {
 
 #footContainer p {
 	font-size: 10px;
-		text-align: left;
+	text-align: left;
 }
 
 #footContainer h6 {
@@ -293,17 +320,15 @@ footer {
 	margin: 0px;
 }
 
-
 #thirdContainer a {
 	font-size: 12px;
 }
 
 #thirdContainer img { 
 	max-width: 300px;
-    margin: 0px auto 20px;
+    margin: 0px auto 5px;
     float: left;
-	 }
-
+}
 
 #thirdContent {
 	clear: both;
@@ -312,7 +337,6 @@ footer {
 	margin: 0 auto;
 	padding: 10px;
 }
-
 
 /*  SECTIONS  */
 .section {
@@ -384,9 +408,9 @@ footer {
 	h3, h4, h5, h6 {margin-top: 5px;}
 	h4#ruled {border-top: 1px; border-right: 0px; border-left: 0px; border-bottom: 0px;
 		    border-collapse: separate;
-    border-spacing: 15px;
-		border-style: solid;
-		border-color: black;
+    		border-spacing: 15px;
+			border-style: solid;
+			border-color: black;
 	}
 
 	a { font-size: 12px;}
@@ -398,4 +422,4 @@ footer {
 	 }
 
 }
-}
+
