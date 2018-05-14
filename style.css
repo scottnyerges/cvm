@@ -34,6 +34,7 @@ td, th {
 
 #nocolor {
 		background-color: #f7f7ff;
+		border-radius: 0px;
 }
 
 #wedSpeak {
@@ -57,7 +58,7 @@ td, th {
 }
 
 tr:nth-child(2) {
-    background-color: #ffccb3;
+    background-color: #ffb3b3;
 }
 
 tr:nth-child(3) {
@@ -85,7 +86,7 @@ tr:nth-child(8) {
 }
 
 tr:nth-child(9) {
-    background-color: #ff3300;
+    background-color: #ff471a;
 }
 
 tr:nth-child(10) {
@@ -109,11 +110,11 @@ tr:nth-child(14) {
 }
 
 tr:nth-child(15) {
-    background-color: #d6f5f5;
+    background-color: #80bfff;
 }
 
 tr:nth-child(16) {
-    background-color: #ff3300;
+    background-color: #ff471a;
 }
 
 tr:nth-child(17) {
