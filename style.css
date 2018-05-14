@@ -14,6 +14,7 @@ table {
     border-spacing: 5px;
 /*    border-collapse: collapse;
 */    width: 100%;
+
 }
 
 table#wednesday {
@@ -55,6 +56,31 @@ td, th {
 
 #wedBreak {
 	background-color: #ffff9c;
+}
+
+#thurPanel { 
+	background-color: #66ccff; 
+
+}
+
+#reception {
+	background-color: #c2c2ff;
+
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.green {
+    color:#92ff86;
+    background: none;
+}
+
+mark.orange {
+    color:#ffb34d;
+    background: none;
 }
 
 tr:nth-child(2) {
