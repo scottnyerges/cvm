@@ -205,7 +205,7 @@ p {
 p#credit {
 	font-size: 9px;
 	text-align: right;
-	margin-top: -1px;
+	margin-top: 0px;
 }
 
 a {
