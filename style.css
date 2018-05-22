@@ -47,7 +47,7 @@ td, th {
 }
 
 #wedVid {
-	background-color: #fd584d;
+	background-color: #ff9980;
 }
 
 #wedScreen {
@@ -64,7 +64,7 @@ td, th {
 }
 
 #reception {
-	background-color: plum;
+	background-color: #ffcc00;
 
 }
 
@@ -112,7 +112,7 @@ tr:nth-child(8) {
 }
 
 tr:nth-child(9) {
-    background-color: #fd584d;
+    background-color: #ff9980;
 }
 
 tr:nth-child(10) {
@@ -140,7 +140,7 @@ tr:nth-child(15) {
 }
 
 tr:nth-child(16) {
-    background-color: #fd584d;
+    background-color: #ff9980;
 }
 
 tr:nth-child(17) {
