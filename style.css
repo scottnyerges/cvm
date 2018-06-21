@@ -187,7 +187,7 @@ img {
 
 img#logo {
 	max-width: 125px;
-	    margin: 10px auto 20px;
+	margin: 10px auto 20px;
     display: block;
 }
 
@@ -197,9 +197,26 @@ img#CVMmobile {
 	margin-bottom: 0px;
 }
 
+img#Screenings {
+	max-width: 400px;
+	height: auto;
+	display: block;
+}
+
 p {
 	font-family: Arial, Helvetica, sans-serif;	
 	font-size: 12px;
+}
+
+#Tickets {
+	padding: 10px;
+	border: 0.5px;
+	border-color: black;
+	border-style: solid;
+		display: block;
+		font-size: 14px;
+
+
 }
 
 p#credit {
@@ -283,12 +300,6 @@ footer {
 	margin-top: -15px;
 }
 
-/*#footContainer img {
-	width: 100%;
-	margin: 10px 10px 0px 0px;
-	vertical-align: middle;
-}*/
-
 #headContainer {
 	width: 100%;
 	border-bottom: 2px solid black;
@@ -309,14 +320,6 @@ footer {
 	margin: 0px;
 }
 
-/*#mainContainer img {
-	width: 100%;
-	max-width: 500px;
-	height: auto;
-	vertical-align: middle;
-	text-align: center;
-}*/
-
 #mainContent {
 	clear: both;
 	max-width: 1200 px;
@@ -330,12 +333,6 @@ footer {
 	width: 100%;
 	margin: 0px;
 }
-
-/*#secondContainer img {
-	width: 100%;
-	height: auto;
-	vertical-align: middle;
-}*/
 
 #secondContent {
 	clear: both;
