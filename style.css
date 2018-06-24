@@ -347,9 +347,7 @@ margin: 1% 0 1% 1.6%;
 .col:first-child { margin-left: 0; }
 
 #ScreeningBox {
-/*border: 0.5px;
-border-style: solid;
-border-color: lightgray;*/
+
 background-color: ivory;
 padding: 10px;
 margin-top: 10px;
