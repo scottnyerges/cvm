@@ -129,7 +129,9 @@ font-size: 12px;
 }
 
 li{ 
-margin-bottom: 5px; }
+margin-bottom: 5px; 
+/*margin-left: -10px;*/
+}
 
 header {
 clear: both;
@@ -147,11 +149,11 @@ margin-bottom: 5px;
 }
 img#logo {
 max-width: 125px;
-margin: 10px auto 20px;
+
 display: block;
 }
 img#ScreenThumbs{
-max-width: 150px;
+max-width: 250px;
 height: auto;
 }
 img#CVMmobile {
@@ -341,7 +343,7 @@ float:left;
 margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
-.col#ScreenThumb { max-width: 120px; }
+
 #ScreeningBox {
 /*border: 0.5px;
 border-style: solid;
