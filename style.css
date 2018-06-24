@@ -179,8 +179,10 @@ background-color: lightGrey;
 #Tickets {
 padding: 10px;
 border: 0.5px;
-border-color: black;
-border-style: solid;
+font-size: 12px;
+/*border-color: black;
+border-style: solid;*/
+background-color: lightGrey;
 display: block;
 }
 p#credit {
@@ -351,7 +353,7 @@ border-color: lightgray;*/
 background-color: ivory;
 padding: 10px;
 margin-top: 10px;
-}
+width: 300px;}
 .col#BG{
 	background-color: lightgrey;
 }
@@ -415,4 +417,8 @@ img#ScreenThumbs{
 width: 100%;
 height: auto;}
 .col#ScreenThumb { width: 100%; }
+#ScreeningBox {
+width: 100%;}
+
+
 }
