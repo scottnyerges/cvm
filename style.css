@@ -171,18 +171,19 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 }
 p#Tickets {
-padding: 10px;
+padding: 15px;
 display: block;
 border: none;
-background-color: lightGrey;
+background-color: #b1a5f3;
+font-size: 13px;
 }
 #Tickets {
-padding: 10px;
+padding: 15px;
 border: 0.5px;
-font-size: 12px;
+font-size: 13px;
 /*border-color: black;
 border-style: solid;*/
-background-color: lightGrey;
+background-color: #b1a5f3;
 display: block;
 }
 p#credit {
@@ -338,6 +339,11 @@ clear: both;
 padding: 0px;
 margin: 0px;
 }
+
+.section#RightMargin {
+	margin-right: 100px;
+}
+
 /*  COLUMN SETUP  */
 .col {
 display: block;
@@ -348,9 +354,10 @@ margin: 1% 0 1% 1.6%;
 
 #ScreeningBox {
 
-background-color: ivory;
+background-color: #bce2dc;
 padding: 10px;
 margin-top: 10px;
+margin-left: 50px;
 width: 300px;}
 .col#BG{
 	background-color: lightgrey;
@@ -416,7 +423,11 @@ width: 100%;
 height: auto;}
 .col#ScreenThumb { width: 100%; }
 #ScreeningBox {
-width: 100%;}
+width: 100%;
+margin-left: 0px;
+}
 
-
+.section#RightMargin {
+	margin-right: 0px;
+}
 }
