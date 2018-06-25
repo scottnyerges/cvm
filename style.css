@@ -340,9 +340,6 @@ padding: 0px;
 margin: 0px;
 }
 
-.section#RightMargin {
-	margin-right: 100px;
-}
 
 /*  COLUMN SETUP  */
 .col {
@@ -427,7 +424,4 @@ width: 100%;
 margin-left: 0px;
 }
 
-.section#RightMargin {
-	margin-right: 0px;
-}
 }
