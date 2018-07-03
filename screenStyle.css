@@ -1,0 +1,319 @@
+.wrapper {
+width: 100%;
+margin: auto;
+position: relative;
+text-align: left;
+background-color: GhostWhite;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*PAGE STYLES*/
+ul {
+font-size: 12px;
+}
+
+li{ 
+margin-bottom: 5px;
+}
+
+header {
+clear: both;
+max-width: 1900px;
+margin: 0 auto;
+padding: 0px;
+position: relative;
+}
+img {
+width: 100%;
+height: auto;
+border: 0px;
+text-align: center;
+margin-bottom: 5px;
+}
+img#logo {
+max-width: 125px;
+
+display: block;
+}
+img#ScreenThumbs{
+max-width: 200px;
+height: auto;
+float: left;
+}
+img#CVMmobile {
+max-width: 200px;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+/*img#Screenings {
+max-width: 400px;
+height: auto;
+display: block;
+}*/
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+a#Tickets {
+font-size: 13px;
+padding: 10px;
+}
+#Tickets {
+background-color: #b1a5f3;
+display: block;
+}
+p#credit {
+font-size: 9px;
+text-align: right;
+margin-top: 0px;
+}
+a {
+text-decoration: none;
+color: black;
+}
+a:hover {
+color: purple;
+}
+h1 {
+font-size: 32px;
+text-align: center;
+}
+h2#center, h3#center, h4#center {
+text-align: center;
+}
+h2#Screen {
+margin-top: 0px;
+margin-bottom: 10px;
+}
+h3, h4, h5 {
+margin-top: 0px;
+margin-bottom: 5px;
+}
+h3#Screenings {
+font-size: 14px;
+}
+h4#Rule{
+border-top: 0.5px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+padding-top: 10px;
+border-style: solid;
+border-color: lightgray;
+}
+h5, h6 {
+margin-bottom: -5px;
+}
+h5#Rule{
+border-top: 0.5px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+padding-top: 10px;
+border-style: solid;
+border-color: lightgray;
+}
+
+h6 {
+margin-top: 10px;
+}
+nav {
+padding: 0px;
+width: 100%;
+float: right;
+}
+nav ul#menu {
+float: right;
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+nav ul#menu li {
+display: block;
+float: left;
+text-align: center;
+position: relative;
+padding: 5px;
+}
+footer {
+clear: both;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0px;
+text-align: center;
+}
+#footContainer {
+width: 100%;
+/*margin: auto;*/
+border-top: 1px solid black;
+}
+
+#footContainer p {
+font-size: 10px;
+text-align: left;
+}
+#footContainer h6 {
+font-size: 11px;
+margin-top: -15px;
+}
+#headContainer {
+width: 100%;
+border-bottom: 2px solid black;
+}
+#topLogo {
+padding: 0px;
+width: 100%;
+float: left;
+}
+#section {
+font-size: 24px;
+}
+#mainContainer {
+width: 100%;
+margin: 0px;
+}
+#mainContent {
+clear: both;
+max-width: 1600 px;
+position: relative;
+margin: auto auto auto 150px;
+padding: 10px;
+}
+
+/*  SECTIONS  */
+.section {
+clear: both;
+padding: 0px;
+margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+display: block;
+float:left;
+margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; }
+
+.col#BG{
+	padding-left: 10px;
+	width: 80%;
+}
+
+.col#BG2 {
+	background-color: plum;
+	width: 30%;
+}
+
+.push {
+visibility: hidden;
+}
+
+
+/*  RESPONSIVE GRID FOR MOBILE  */
+@media only screen and (max-width: 480px)
+{
+.push {
+display: none;
+}
+}
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF SIX  */
+.span_6_of_6 {
+width: 100%;
+}
+.span_5_of_6 {
+width: 83.06%;
+}
+.span_4_of_6 {
+width: 66.13%;
+}
+.span_3_of_6 {
+width: 49.2%;
+}
+.span_2_of_6 {
+width: 32.26%;
+}
+.span_1_of_6 {
+width: 15.33%;
+}
+
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: auto;
+}
+.span_1_of_5 {
+	width: 18.72%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS - GRID OF SIX */
+@media only screen and (max-width: 480px) {
+.col {  margin: 1% 0 1% 0%; }
+.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+
+h1 {font-size: 25px;
+margin-bottom: 0px;
+text-align: center;}
+
+h2 {font-size: 20px;
+text-align: left;}
+
+h3, h4, h5, h6 {margin-top: 5px;}
+
+h4#ruled {border-top: 1px; border-right: 0px; border-left: 0px; border-bottom: 0px;
+border-collapse: separate;
+border-spacing: 15px;
+border-style: solid;
+border-color: black;
+}
+
+a { font-size: 12px;}
+
+img#ScreenThumbs{
+max-width: 100%;
+height: auto;
+}
+
+.col#ScreenThumb { width: 100%; }
+#ScreeningBox {
+width: 100%;
+margin-left: 0px;
+}
+.col#BG{
+	padding-left: 10px;
+	width: 100%;
+}
+
+.col#BG2 {
+	background-color: plum;
+	width: 100%;
+}
+#footContainer {
+	margin: auto;
+}
+#mainContent {
+	margin: auto;
+}
+}
+
+
+
+
+
