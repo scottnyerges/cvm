@@ -204,6 +204,9 @@ text-align: center;
 h2#center, h3#center, h4#center {
 text-align: center;
 }
+h2#location {
+	margin-top: 0px;
+}
 h2#Screen {
 margin-top: 0px;
 margin-bottom: 10px;	
