@@ -332,6 +332,16 @@ position: relative;
 margin: 0 auto;
 padding: 10px;
 }
+
+
+#lodging {
+	background-color: White;
+	padding: 5px;
+}
+
+
+
+
 /*  SECTIONS  */
 .section {
 clear: both;
