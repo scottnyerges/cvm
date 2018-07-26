@@ -147,8 +147,14 @@ text-align: center;
 margin-bottom: 5px;
 }
 img#logo {
-max-width: 125px;
+max-width: 200px;
 display: block;
+}
+img#logo2 {
+width: 125px;
+height: 100%;
+display: block;
+margin-top: 0px;
 }
 img#location{
 	max-width: 750px;
@@ -213,6 +219,7 @@ text-align: center;
 }
 h2#location {
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 h2#Screen {
 margin-top: 0px;
